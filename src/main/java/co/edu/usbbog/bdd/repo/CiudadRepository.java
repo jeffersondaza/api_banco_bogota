@@ -15,7 +15,6 @@ import org.springframework.data.repository.CrudRepository;
 import co.edu.usbbog.bdd.model.Ciudad;
 
 @Repository
-public interface CiudadRepository extends CrudRepository<Ciudad, Long>{
-	
+public interface CiudadRepository extends JpaRepository<Ciudad, Integer>{
 	
 }
